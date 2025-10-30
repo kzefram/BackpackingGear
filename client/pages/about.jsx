@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 
 const API = import.meta.env.VITE_API_URL || "http://localhost:4000";
 
@@ -169,6 +170,33 @@ export default function About() {
           </form>
           <br />
           <br />
+        </section>
+
+        {/* CTA: ready to start? Sign in / Sign up - moved under the form */}
+        <section className='mb-6'>
+          <div className='bg-indigo-50 border border-indigo-100 rounded-lg p-6 text-center'>
+            <h2 className='text-xl font-semibold mb-2'>Ready to start?</h2>
+            <p className='text-sm text-gray-700 mb-4'>
+              Sign in or create an account to sync your gear across devices. You
+              can also continue using the app locally without an account.
+            </p>
+
+            <div className='flex flex-col md:flex-row justify-center gap-3'>
+              <Link
+                to='/signin'
+                className='bg-white text-indigo-700 border border-indigo-700 px-4 py-2 rounded'
+              >
+                Sign in
+              </Link>
+
+              <Link
+                to='/signup'
+                className='bg-indigo-600 text-white px-4 py-2 rounded'
+              >
+                Sign up
+              </Link>
+            </div>
+          </div>
         </section>
       </div>
     </>
