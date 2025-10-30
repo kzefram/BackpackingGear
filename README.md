@@ -69,6 +69,20 @@ If there's a particular feature above you want prioritized (for example, sharing
 
 ## Pictures
 
+![HomePage](./client/src/assets/home.png)
+
+![MyGear](./client/src/assets/backpackingGear.png)
+
+![WishList](./client/src/assets/wishlist.png)
+
+![AboutPage](./client/src/assets/about.png)
+
+![Profile](./client/src/assets/profile.png)
+
+![SignIn](./client/src/assets/signin.png)
+
+![SignUp](./client/src/assets/signup.png)
+
 ## License
 
 [![Licence](https://img.shields.io/github/license/Ileriayo/markdown-badges?style=for-the-badge)](./LICENSE)
